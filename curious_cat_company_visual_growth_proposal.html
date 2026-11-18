@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growth &amp; Conversion Proposal | Curious Cat Company</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #F8FAFC;
+            color: #0F172A;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 290px;
+            max-height: 360px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 330px;
+            }
+        }
+        .material-card {
+            background: #FFFFFF;
+            border-radius: 1rem;
+            box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .material-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 28px -5px rgba(15, 23, 42, 0.1), 0 4px 10px -2px rgba(15, 23, 42, 0.05);
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-teal-500 selection:text-white">
+
+    <nav class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <span class="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-br from-teal-400 to-orange-500 text-slate-950 font-extrabold text-base">CC</span>
+                    <div>
+                        <span class="font-bold tracking-tight text-white block leading-none">CURIOUS CAT COMPANY</span>
+                        <span class="text-[11px] uppercase tracking-widest text-teal-400 font-semibold">Growth &amp; Website Revamp Proposal</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-6 text-xs font-bold uppercase tracking-wider text-slate-300">
+                    <a href="#audit" class="hover:text-orange-400 transition">1. Ad Audit</a>
+                    <a href="#fix" class="hover:text-teal-400 transition">2. The Fix</a>
+                    <a href="#roadmap" class="hover:text-violet-400 transition">3. Roadmap</a>
+                    <a href="#roles" class="hover:text-amber-400 transition">4. Roles</a>
+                    <a href="#pricing" class="hover:text-teal-400 transition">5. Investment</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-slate-900 text-white pt-12 pb-14 px-4 sm:px-6 lg:px-8 border-b-4 border-teal-500">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+                <div class="inline-flex items-center px-3.5 py-1.5 rounded-full bg-teal-500/20 border border-teal-400/30 text-teal-300 text-xs font-bold uppercase tracking-wider">
+                    <span>Prepared Exclusively for Curious Cat Company • Indiranagar, Bengaluru</span>
+                </div>
+
+                <a href="https://www.instagram.com/adsbysidharth/" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center space-x-2.5 px-4 py-2 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-400 hover:to-amber-400 text-slate-950 font-extrabold text-xs tracking-wide shadow-lg shadow-orange-500/20 transition transform hover:-translate-y-0.5">
+                    <span>Prepared by SIDHARTH NS</span>
+                    <span class="px-2 py-0.5 rounded-full bg-slate-950 text-white font-bold group-hover:bg-slate-900 transition">@adsbysidharth ↗</span>
+                </a>
+            </div>
+
+            <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight max-w-4xl mb-5">
+                Turning Your <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-amber-300 to-orange-400">22K Community &amp; Ad Spend</span> Into Profitable Daily Orders
+            </h1>
+            <p class="text-slate-300 text-base sm:text-lg max-w-3xl leading-relaxed mb-8">
+                A clear, no-fluff look at why your current Meta &amp; Google ads aren’t converting into website sales—and our step-by-step plan to rebuild your Shopify store, focus 100% on Meta profitability first, and scale daily orders consistently.
+            </p>
+
+            <div class="inline-flex flex-col sm:flex-row sm:items-center gap-3 bg-slate-800/90 border border-slate-700 rounded-2xl px-5 py-3.5">
+                <div class="text-xs text-slate-300">
+                    <span class="font-extrabold text-white uppercase tracking-wider">Strategist: SIDHARTH NS</span>
+                    <span class="mx-2 text-slate-500">•</span>
+                    <span>D2C Performance Marketing &amp; Shopify CRO</span>
+                </div>
+                <a href="https://www.instagram.com/adsbysidharth/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1.5 text-xs font-extrabold text-teal-400 hover:text-teal-300 underline decoration-teal-400/50 underline-offset-4 transition">
+                    <span>View My Work &amp; Insights on Instagram: @adsbysidharth</span>
+                    <span>→</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
+
+        <section id="audit" class="scroll-mt-20">
+            <div class="border-l-4 border-orange-500 pl-4 mb-8">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-orange-600">01 • Honest Ad Account Audit</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">Where Your Ad Budget Has Gone (And Why Sales Stalled)</h2>
+                <p class="text-slate-600 mt-2 max-w-3xl text-sm sm:text-base leading-relaxed">
+                    We audited your full Meta Ads history (₹2.70 Lakhs total spend). The good news: people love your brand, click your ads at a low ₹10–₹14 cost, and save your Instagram posts. The problem isn’t your products—it’s what happens <strong>after</strong> they click, plus wasted spend on Instagram boosts and expensive Google grooming keywords.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="material-card p-6 border border-slate-100 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <h3 class="font-bold text-lg text-slate-900">Where Your Meta Spend Went (₹2.70L Total)</h3>
+                            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-orange-100 text-orange-800">Account Audit</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-4">Over 42% of historical spend went into Instagram post boosts that bring likes instead of checkout orders.</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="spendBreakdownChart"></canvas>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-600">
+                        <strong class="text-slate-900">Simple Fix:</strong> Stop boosting posts immediately. Every rupee will go into structured Sales &amp; Local Salon Lead campaigns.
+                    </div>
+                </div>
+
+                <div class="material-card p-6 border border-slate-100 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <h3 class="font-bold text-lg text-slate-900">The Website Leak: Clicks vs. Purchases</h3>
+                            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-violet-100 text-violet-800">0.16% Conversion</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-4">Across your Website Sales campaigns, thousands clicked through to the site—but almost everyone left at the product page.</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="funnelLeakChart"></canvas>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-600">
+                        <strong class="text-slate-900">Why They Drop Off:</strong> Your site currently feels like an informational brochure rather than an easy, trust-filled online store.
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 bg-amber-50 border border-amber-200 rounded-2xl p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                <div class="flex items-start space-x-3.5">
+                    <span class="text-2xl">🛑</span>
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-base">Smart Budget Decision: Pause Google Ads (₹10,000/mo) For Now</h4>
+                        <p class="text-xs sm:text-sm text-slate-700 mt-1 leading-relaxed">
+                            Right now, big grooming chains are bidding heavily on Google Search, making clicks expensive. Instead of splitting your budget thin, we will <strong>pause Google Ads</strong> and put that ₹10,000/month into Meta Ads (giving us a focused <strong>₹50,000/month</strong> Meta budget). Once Meta is consistently profitable, we will turn Google Ads back on to scale further.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fix" class="scroll-mt-20">
+            <div class="border-l-4 border-teal-500 pl-4 mb-8">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-teal-600">02 • The Growth Strategy</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">4 Simple Changes That Will Unlock Profitable Sales</h2>
+                <p class="text-slate-600 mt-2 max-w-3xl text-sm sm:text-base leading-relaxed">
+                    You already have great products, a loyal Indiranagar salon clientele, and viral Instagram Reels. Here is how we connect those pieces into a money-making machine.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="material-card p-6 border-t-4 border-teal-500">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <span class="w-9 h-9 rounded-xl bg-teal-50 text-teal-700 font-extrabold flex items-center justify-center">01</span>
+                        <h3 class="font-bold text-lg text-slate-900">Rebuild Shopify for Easy Buying</h3>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        We will redesign your homepage and product pages on Shopify specifically for mobile shoppers (85%+ of Instagram users). Clear product benefits (like stopping whisker fatigue), customer reviews, sticky "Buy Now" buttons, and fast 1-step checkout will turn window shoppers into buyers.
+                    </p>
+                </div>
+
+                <div class="material-card p-6 border-t-4 border-orange-500">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <span class="w-9 h-9 rounded-xl bg-orange-50 text-orange-700 font-extrabold flex items-center justify-center">02</span>
+                        <h3 class="font-bold text-lg text-slate-900">Create Product Bundles (₹1,000 → ₹1,800+ AOV)</h3>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        Selling a single ₹450 toy via ads rarely covers ad costs. We will group your bestsellers into curated <strong>"Mindful Cat Starter Kits"</strong> (e.g., Ceramic Bowl + Jute Toys + Guide) so customers happily spend ₹1,800–₹2,200 per order—making every ad click profitable.
+                    </p>
+                </div>
+
+                <div class="material-card p-6 border-t-4 border-violet-500">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <span class="w-9 h-9 rounded-xl bg-violet-50 text-violet-700 font-extrabold flex items-center justify-center">03</span>
+                        <h3 class="font-bold text-lg text-slate-900">Turn Best Instagram Reels Into Winning Ads</h3>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        Your Instagram already has 926 posts and high-saving Reels. Instead of guessing what works, we will take your top-performing organic Reels, pair them with high-converting ad copy &amp; clean offer posters, and run them through proper Meta Sales campaigns.
+                    </p>
+                </div>
+
+                <div class="material-card p-6 border-t-4 border-amber-500">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <span class="w-9 h-9 rounded-xl bg-amber-50 text-amber-700 font-extrabold flex items-center justify-center">04</span>
+                        <h3 class="font-bold text-lg text-slate-900">Bridge Salon Visitors &amp; WhatsApp Automation</h3>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        Your Indiranagar salon builds huge trust. We will run local salon ads alongside national product ads—and set up automated WhatsApp messages to recover abandoned carts, confirm COD orders, and recommend your ceramic bowls &amp; toys to salon clients.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap" class="scroll-mt-20">
+            <div class="border-l-4 border-violet-600 pl-4 mb-8">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-violet-600">03 • Step-by-Step Timeline</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">Our 3-Phase Execution Roadmap</h2>
+                <p class="text-slate-600 mt-2 max-w-3xl text-sm sm:text-base leading-relaxed">
+                    Since your current agency contract runs until the end of this month, we won’t waste a single day. We fix the website first so you don’t burn another rupee on broken landing pages.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-slate-900 text-white rounded-2xl p-6 material-card relative overflow-hidden">
+                    <div class="inline-block px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 text-xs font-extrabold mb-3">PHASE 1 • NOW (PRE-DECEMBER)</div>
+                    <h3 class="text-xl font-extrabold mb-3">Website &amp; Funnel Rebuild</h3>
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-slate-300">
+                        <li>✓ Full Shopify storefront &amp; product page redesign</li>
+                        <li>✓ Set up 3–4 high-value product bundles</li>
+                        <li>✓ Connect WhatsApp abandoned cart &amp; COD flows</li>
+                        <li>✓ Audit top IG Reels &amp; prepare December ad creatives</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 material-card border border-slate-200">
+                    <div class="inline-block px-3 py-1 rounded-full bg-orange-100 text-orange-800 text-xs font-extrabold mb-3">PHASE 2 • DECEMBER ONWARD</div>
+                    <h3 class="text-xl font-extrabold text-slate-900 mb-3">Meta Ads Takeover &amp; Scaling</h3>
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-slate-600">
+                        <li>✓ Pause Google Ads; focus ₹50k/mo on Meta Ads</li>
+                        <li>✓ Stop all boosted posts immediately</li>
+                        <li>✓ Launch Pan-India D2C Product Sales campaigns</li>
+                        <li>✓ Run Indiranagar Salon leads + WhatsApp cross-sell</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 material-card border border-slate-200">
+                    <div class="inline-block px-3 py-1 rounded-full bg-violet-100 text-violet-800 text-xs font-extrabold mb-3">PHASE 3 • ONCE PROFITABLE</div>
+                    <h3 class="text-xl font-extrabold text-slate-900 mb-3">Profit Expansion &amp; Google Relaunch</h3>
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-slate-600">
+                        <li>✓ Scale winning Meta ad sets &amp; repeat buyer flows</li>
+                        <li>✓ Re-launch Google Shopping &amp; high-intent Search</li>
+                        <li>✓ Introduce repeat consumables &amp; seasonal kits</li>
+                        <li>✓ Predictable monthly ROAS &amp; structured reporting</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="roles" class="scroll-mt-20">
+            <div class="border-l-4 border-amber-500 pl-4 mb-8">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-amber-600">04 • Working Together</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">Taking the Heavy Lifting Off Your Plate</h2>
+                <p class="text-slate-600 mt-2 max-w-3xl text-sm sm:text-base leading-relaxed">
+                    Here is a clear division of responsibilities across store optimization, creative execution, and daily campaign management:
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="material-card p-6 border-l-4 border-teal-500">
+                    <h3 class="font-extrabold text-lg text-slate-900 mb-4 flex items-center">
+                        <span class="mr-2">🛠️</span> What I Will Handle Completely
+                    </h3>
+                    <ul class="space-y-3 text-xs sm:text-sm text-slate-700">
+                        <li class="flex items-start space-x-2.5">
+                            <span class="text-teal-600 font-bold">✓</span>
+                            <span><strong>Shopify Website Redesign &amp; Updates:</strong> Complete store layout, bundle setup, speed, and ongoing conversion improvements.</span>
+                        </li>
+                        <li class="flex items-start space-x-2.5">
+                            <span class="text-teal-600 font-bold">✓</span>
+                            <span><strong>Full Meta Ads Management:</strong> Campaign setup, daily optimization, audience testing, and simple weekly profit reports.</span>
+                        </li>
+                        <li class="flex items-start space-x-2.5">
+                            <span class="text-teal-600 font-bold">✓</span>
+                            <span><strong>Ad Copy, Video Scripts &amp; Static Posters:</strong> Writing all ad texts, giving you simple Reel ideas/hooks, and designing clean offer posters.</span>
+                        </li>
+                        <li class="flex items-start space-x-2.5">
+                            <span class="text-teal-600 font-bold">✓</span>
+                            <span><strong>WhatsApp Automation:</strong> Setting up abandoned cart reminders, COD verification, and salon-to-product upsell messages.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="material-card p-6 border-l-4 border-slate-400 bg-slate-50/70">
+                    <h3 class="font-extrabold text-lg text-slate-900 mb-4 flex items-center">
+                        <span class="mr-2">🐾</span> What Stays With You (Minimal Time)
+                    </h3>
+                    <ul class="space-y-3 text-xs sm:text-sm text-slate-700">
+                        <li class="flex items-start space-x-2.5">
+                            <span class="text-slate-500 font-bold">•</span>
+                            <span><strong>Quick Approvals:</strong> Approving the new Shopify look, bundle prices, and ad posters before launch.</span>
+                        </li>
+                        <li class="flex items-start space-x-2.5">
+                            <span class="text-slate-500 font-bold">•</span>
+                            <span><strong>Raw Cat Clips / Reels:</strong> Shooting simple, authentic phone clips of cats using products or at the salon (using the exact hooks I give you).</span>
+                        </li>
+                        <li class="flex items-start space-x-2.5">
+                            <span class="text-slate-500 font-bold">•</span>
+                            <span><strong>Organic Instagram Page:</strong> Your team continues posting your regular organic feed content &amp; replying to DMs as usual.</span>
+                        </li>
+                        <li class="flex items-start space-x-2.5">
+                            <span class="text-slate-500 font-bold">•</span>
+                            <span><strong>Direct Ad Spend:</strong> Paid directly to Meta from your ad account with 100% transparency.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="scroll-mt-20">
+            <div class="border-l-4 border-teal-500 pl-4 mb-8">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-teal-600">05 • Simple &amp; Transparent Pricing</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">Choose the Partnership Option That Suits You Best</h2>
+                <p class="text-slate-600 mt-2 max-w-3xl text-sm sm:text-base leading-relaxed">
+                    Both options cover your complete Shopify website restructuring, WhatsApp automation, Meta Ads management, ad copywriting, and static poster designs.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-slate-900 text-white rounded-2xl p-7 material-card border-2 border-teal-400 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="px-3 py-1 rounded-full bg-teal-400 text-slate-950 text-xs font-extrabold uppercase">Recommended</span>
+                            <span class="text-xs text-slate-400">Start Website Today</span>
+                        </div>
+                        <h3 class="text-2xl font-extrabold">Option A: Revamp + Monthly Growth</h3>
+                        <p class="text-xs text-slate-300 mt-1 mb-6">Get your Shopify store rebuilt this month so we hit the ground running in December.</p>
+
+                        <div class="space-y-4 bg-slate-800/80 rounded-xl p-5 border border-slate-700">
+                            <div class="flex items-baseline justify-between border-b border-slate-700 pb-3">
+                                <div>
+                                    <div class="text-sm font-bold text-white">Pre-December Shopify Rebuild</div>
+                                    <div class="text-xs text-slate-400">One-time setup (Store + Bundles + WhatsApp)</div>
+                                </div>
+                                <div class="text-2xl font-extrabold text-teal-400">₹15,000</div>
+                            </div>
+                            <div class="flex items-baseline justify-between pt-1">
+                                <div>
+                                    <div class="text-sm font-bold text-white">Monthly Growth Retainer</div>
+                                    <div class="text-xs text-slate-400">Starting December (Meta Ads + CRO + Posters)</div>
+                                </div>
+                                <div class="text-2xl font-extrabold text-white">₹25,000<span class="text-xs font-normal text-slate-400">/mo</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 pt-4 border-t border-slate-800 text-xs text-slate-300">
+                        <strong>Minimum Term:</strong> 3 Months (Dec – Feb) to allow proper pixel learning, testing, and steady ROAS growth.
+                    </div>
+                </div>
+
+                <div class="material-card p-7 border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-extrabold uppercase">Zero Upfront Fee</span>
+                            <span class="text-xs text-slate-500">All-Inclusive Flat Rate</span>
+                        </div>
+                        <h3 class="text-2xl font-extrabold text-slate-900">Option B: Flat Monthly Retainer</h3>
+                        <p class="text-xs text-slate-500 mt-1 mb-6">No separate website revamp fee—we start the monthly retainer immediately in November.</p>
+
+                        <div class="space-y-4 bg-slate-50 rounded-xl p-5 border border-slate-200">
+                            <div class="flex items-baseline justify-between border-b border-slate-200 pb-3">
+                                <div>
+                                    <div class="text-sm font-bold text-slate-900">Upfront Website Revamp Fee</div>
+                                    <div class="text-xs text-slate-500">Included inside your monthly retainer</div>
+                                </div>
+                                <div class="text-2xl font-extrabold text-teal-600">₹0</div>
+                            </div>
+                            <div class="flex items-baseline justify-between pt-1">
+                                <div>
+                                    <div class="text-sm font-bold text-slate-900">All-In Monthly Retainer</div>
+                                    <div class="text-xs text-slate-500">Nov: Store Build • Dec+: Ads, CRO &amp; Posters</div>
+                                </div>
+                                <div class="text-2xl font-extrabold text-slate-900">₹30,000<span class="text-xs font-normal text-slate-500">/mo</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-600">
+                        <strong>Minimum Term:</strong> 4 Months (Nov – Feb) covering the full November rebuild + 3 months of ad scaling.
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-10 bg-gradient-to-r from-teal-600 to-teal-700 rounded-2xl p-6 sm:p-8 text-white flex flex-col sm:flex-row items-center justify-between gap-6">
+                <div>
+                    <h3 class="text-xl sm:text-2xl font-extrabold">Ready to Fix the Store Before December?</h3>
+                    <p class="text-xs sm:text-sm text-teal-100 mt-1">Let’s lock in your preferred option and do a quick 30-minute call to finalize your top 3–4 product bundles.</p>
+                </div>
+                <a href="https://www.instagram.com/adsbysidharth/" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-xl bg-white hover:bg-amber-50 text-slate-900 font-extrabold text-sm whitespace-nowrap shadow-md transition">
+                    Connect with SIDHARTH NS (@adsbysidharth) ↗
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-950 text-slate-400 py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-800 mt-12">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+            <div class="font-bold text-white">Curious Cat Company • Growth &amp; Performance Proposal by SIDHARTH NS</div>
+            <div>
+                <a href="https://www.instagram.com/adsbysidharth/" target="_blank" rel="noopener noreferrer" class="text-teal-400 hover:text-teal-300 font-bold underline underline-offset-4">
+                    Instagram: @adsbysidharth (https://www.instagram.com/adsbysidharth/)
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function wrapLabel(label) {
+            if (typeof label !== 'string' || label.length <= 16) {
+                return label;
+            }
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+
+            words.forEach(word => {
+                if ((currentLine + ' ' + word).trim().length <= 16) {
+                    currentLine = (currentLine + ' ' + word).trim();
+                } else {
+                    if (currentLine) {
+                        lines.push(currentLine);
+                    }
+                    currentLine = word;
+                }
+            });
+            if (currentLine) {
+                lines.push(currentLine);
+            }
+            return lines;
+        }
+
+        const standardTooltipPlugin = {
+            tooltip: {
+                backgroundColor: '#0F172A',
+                titleFont: { family: 'Plus Jakarta Sans', size: 13, weight: 'bold' },
+                bodyFont: { family: 'Plus Jakarta Sans', size: 12 },
+                padding: 12,
+                cornerRadius: 8,
+                callbacks: {
+                    title: function(tooltipItems) {
+                        const item = tooltipItems[0];
+                        let label = item.chart.data.labels[item.dataIndex];
+                        if (Array.isArray(label)) {
+                            return label.join(' ');
+                        } else {
+                            return label;
+                        }
+                    }
+                }
+            }
+        };
+
+        const spendCtx = document.getElementById('spendBreakdownChart').getContext('2d');
+        new Chart(spendCtx, {
+            type: 'doughnut',
+            data: {
+                labels: [
+                    'Instagram Boosted Posts (₹1.15L)',
+                    'Website Sales Campaigns (₹66.3K)',
+                    'WhatsApp & Salon Leads (₹62.8K)',
+                    'Awareness & Traffic Tests (₹26.1K)'
+                ].map(wrapLabel),
+                datasets: [{
+                    data: [115000, 66298, 62827, 26099],
+                    backgroundColor: ['#F97316', '#8B5CF6', '#0D9488', '#CBD5E1'],
+                    borderWidth: 2,
+                    borderColor: '#FFFFFF',
+                    hoverOffset: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '60%',
+                plugins: {
+                    ...standardTooltipPlugin,
+                    legend: {
+                        position: 'bottom',
+                        labels: { font: { family: 'Plus Jakarta Sans', size: 11 }, usePointStyle: true }
+                    }
+                }
+            }
+        });
+
+        const funnelCtx = document.getElementById('funnelLeakChart').getContext('2d');
+        new Chart(funnelCtx, {
+            type: 'bar',
+            data: {
+                labels: [
+                    'Ad Link Clicks',
+                    'Landing Page Views',
+                    'Completed Website Orders'
+                ].map(wrapLabel),
+                datasets: [{
+                    label: 'User Volume',
+                    data: [3672, 2414, 4],
+                    backgroundColor: ['#0D9488', '#FACC15', '#F97316'],
+                    borderRadius: 8,
+                    barThickness: 46
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    ...standardTooltipPlugin,
+                    legend: { display: false }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: '#F1F5F9' },
+                        ticks: {
+                            font: { family: 'Plus Jakarta Sans', size: 11 },
+                            callback: function(value) { return value.toLocaleString(); }
+                        }
+                    },
+                    x: {
+                        grid: { display: false },
+                        ticks: { font: { family: 'Plus Jakarta Sans', size: 11, weight: 'bold' } }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
